@@ -3,7 +3,7 @@ package openrtb2
 import (
 	"encoding/json"
 
-	"github.com/revcontent-production/openrtb/v1/adcom1"
+	"github.com/revcontent-production/openrtb/v2/adcom1"
 )
 
 // 3.2.8 Object: Audio

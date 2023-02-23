@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	. "github.com/revcontent-production/openrtb/v1/openrtb3"
+	. "github.com/revcontent-production/openrtb/v2/openrtb3"
 
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
