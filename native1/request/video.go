@@ -1,7 +1,7 @@
 package request
 
 import (
-	"github.com/prebid/openrtb/v18/openrtb2"
+	"github.com/revcontent-production/openrtb/v1/openrtb2"
 )
 
 // 4.5 Video Object

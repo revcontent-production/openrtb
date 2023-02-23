@@ -8,7 +8,7 @@ package request
 import (
 	"encoding/json"
 
-	"github.com/prebid/openrtb/v18/native1"
+	"github.com/revcontent-production/openrtb/v1/native1"
 )
 
 // 4.1 Native Markup Request Object

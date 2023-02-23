@@ -64,7 +64,7 @@ type Imp struct {
 	// Description:
 	//   A Native object (Section 3.2.9); required if this impression is
 	//   offered as a native ad opportunity.
-	Native *Native `json:"native,omitempty"`
+	Native json.RawMessage `json:"native,omitempty"`
 
 	// Attribute:
 	//   pmp
