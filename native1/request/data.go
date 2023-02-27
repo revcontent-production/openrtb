@@ -3,7 +3,7 @@ package request
 import (
 	"encoding/json"
 
-	"github.com/revcontent-production/openrtb/v5/native1"
+	"github.com/revcontent-production/openrtb/v6/native1"
 )
 
 // 4.6 Data Object
