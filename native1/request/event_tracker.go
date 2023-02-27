@@ -3,7 +3,7 @@ package request
 import (
 	"encoding/json"
 
-	"github.com/revcontent-production/openrtb/v6/native1"
+	"github.com/revcontent-production/openrtb/v7/native1"
 )
 
 // 4.7 Event Trackers Request Object

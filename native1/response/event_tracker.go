@@ -3,7 +3,7 @@ package response
 import (
 	"encoding/json"
 
-	"github.com/revcontent-production/openrtb/v6/native1"
+	"github.com/revcontent-production/openrtb/v7/native1"
 )
 
 // 5.8 Event Tracker Response Object
