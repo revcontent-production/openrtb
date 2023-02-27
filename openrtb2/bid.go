@@ -3,7 +3,7 @@ package openrtb2
 import (
 	"encoding/json"
 
-	"github.com/revcontent-production/openrtb/v3/adcom1"
+	"github.com/revcontent-production/openrtb/v4/adcom1"
 )
 
 // 4.3.3 Object: Bid
@@ -97,12 +97,12 @@ type Bid struct {
 	// Attribute:
 	//   adm
 	// Type:
-	//   string
+	//   interface
 	// Description:
 	//   Optional means of conveying ad markup in case the bid wins;
 	//   supersedes the win notice if markup is included in both.
 	//   Substitution macros (Section 4.4) may be included.
-	AdM string `json:"adm,omitempty"`
+	AdM interface{} `json:"adm,omitempty"`
 
 	// Attribute:
 	//   adid
