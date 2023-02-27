@@ -3,7 +3,7 @@ package openrtb2
 import (
 	"encoding/json"
 
-	"github.com/revcontent-production/openrtb/v7/adcom1"
+	"github.com/revcontent-production/openrtb/v8/adcom1"
 )
 
 // Object: App
