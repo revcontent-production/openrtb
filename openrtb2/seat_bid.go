@@ -15,7 +15,7 @@ type SeatBid struct {
 	// Description:
 	//   Array of 1+ Bid objects (Section 4.2.3) each related to an
 	//   impression. Multiple bids can relate to the same impression.
-	Bid []json.RawMessage `json:"bid"`
+	Bid []Bid `json:"bid"`
 
 	// Attribute:
 	//   seat

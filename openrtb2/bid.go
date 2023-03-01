@@ -2,8 +2,9 @@ package openrtb2
 
 import (
 	"encoding/json"
+	"github.com/revcontent-production/openrtb/v9/native1/response"
 
-	"github.com/revcontent-production/openrtb/v8/adcom1"
+	"github.com/revcontent-production/openrtb/v9/adcom1"
 )
 
 // 4.3.3 Object: Bid
@@ -102,7 +103,8 @@ type Bid struct {
 	//   Optional means of conveying ad markup in case the bid wins;
 	//   supersedes the win notice if markup is included in both.
 	//   Substitution macros (Section 4.4) may be included.
-	AdM json.RawMessage `json:"adm,omitempty"`
+	AdM          string             `json:"adm,omitempty"`        // For Base
+	AdMBidswitch *response.Response `json:"adm_native,omitempty"` // For Bidswitch
 
 	// Attribute:
 	//   adid

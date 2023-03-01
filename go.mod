@@ -1,4 +1,4 @@
-module github.com/revcontent-production/openrtb/v8
+module github.com/revcontent-production/openrtb/v9
 
 go 1.16
 
