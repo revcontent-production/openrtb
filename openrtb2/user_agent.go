@@ -3,7 +3,7 @@ package openrtb2
 import (
 	"encoding/json"
 
-	"github.com/revcontent-production/openrtb/v9/adcom1"
+	"github.com/revcontent-production/openrtb/v10/adcom1"
 )
 
 // 3.2.29 Object: UserAgent
