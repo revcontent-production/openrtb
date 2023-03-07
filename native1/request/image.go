@@ -3,7 +3,7 @@ package request
 import (
 	"encoding/json"
 
-	"github.com/revcontent-production/openrtb/v10/native1"
+	"github.com/revcontent-production/openrtb/v11/native1"
 )
 
 // 4.4 Image Object

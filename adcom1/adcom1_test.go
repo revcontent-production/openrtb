@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	. "github.com/revcontent-production/openrtb/v10/adcom1"
+	. "github.com/revcontent-production/openrtb/v11/adcom1"
 )
 
 var _ = DescribeTable(

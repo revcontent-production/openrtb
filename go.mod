@@ -1,4 +1,4 @@
-module github.com/revcontent-production/openrtb/v10
+module github.com/revcontent-production/openrtb/v11
 
 go 1.16
 

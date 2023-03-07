@@ -2,9 +2,9 @@ package openrtb2
 
 import (
 	"encoding/json"
-	"github.com/revcontent-production/openrtb/v10/native1/response"
+	"github.com/revcontent-production/openrtb/v11/native1/response"
 
-	"github.com/revcontent-production/openrtb/v10/adcom1"
+	"github.com/revcontent-production/openrtb/v11/adcom1"
 )
 
 // 4.3.3 Object: Bid
